@@ -1,0 +1,32 @@
+<div class="border border-info border-3 bg-secondary">
+
+    <h1 class="text-center mt-3 mb-4"> Add New Product </h1>
+
+    <form [formGroup]="addForm" action="" class="w-50 container text-center mb-5">
+
+        <input type="text" formControlName = "Pid" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p1" placeholder="Product id" name="pn1">
+        <input type="text" formControlName = "Pname" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p2" placeholder="Name" name="pn2">
+        <input type="text" formControlName = "PcataId" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p3" placeholder="Catagory id" name="pn3">
+        <input type="text" formControlName = "Pdesc" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p4" placeholder="Descriptions" name="pn4">
+        <input type="text" formControlName = "Pprice" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p5" placeholder="Price" name="pn5">
+        <input type="text" formControlName = "Pis_avail" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p6" placeholder="is_Available" name="pn6">
+        <input type="text" formControlName = "PprodImg" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p7" placeholder="Product Image" name="pn7">
+        <input type="text" formControlName = "Prating" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p8" placeholder="Rating" name="pn8">
+        <input type="text" formControlName = "Preview" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p9" placeholder="Review" name="pn9"> 
+        <input type="text" formControlName = "PvendorName" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p10" placeholder="Vendor name" name="pn10">
+        <input type="text" formControlName = "Pwarrenty" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p11" placeholder="Warrenty" name="pn11">
+
+        <button (click)="add()" class="btn btn-outline-dark flex-shrink-0 border-2 border border-dark border-4 rounded-5  fw-bolder mt-4" type="button">
+
+            <a href="" class="lead text-info" style="text-decoration: none;"> <i class="fa-solid fa-plus fa-flip ms-1 fs-5 text-white"></i>
+                Add product 
+            </a> 
+            <!-- <span class="badge bg-dark text-white ms-1 rounded-pill"> 0 </span> -->
+            
+        </button>
+
+    </form>
+  
+
+</div>
+

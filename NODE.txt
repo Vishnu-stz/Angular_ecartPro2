@@ -1,0 +1,31 @@
+E - Cart
+---------
+
+
+
+Admin
+
+* all Products View
+* single Product View
+
+    add product
+    edit product
+    delete product
+
+
+* search Option
+* Catagory Option
+
+
+lazy loading    -   module  there will be two module
+-------------
+
+   -    ng g module product --route product --module app.module
+
+
+new module
+    -    ng g module siteLayOut
+
+
+For Creating a server
+    -   npx json-server --watch db.json --port 3000 

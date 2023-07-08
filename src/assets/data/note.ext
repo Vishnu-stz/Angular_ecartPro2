@@ -1,0 +1,11 @@
+
+For Creating a server
+    -   npx json-server --watch db.json --port 3000 
+
+
+Behaviour Subject
+-----------------
+
+rxjs    -   reactive extension for javascript   -   to commounicate between two modules and streaming
+
+

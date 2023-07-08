@@ -1,0 +1,30 @@
+<div class="border border-info border-3 bg-secondary">
+
+    <h1 class="text-center mt-3 mb-4"> Edit Product </h1>
+
+    <form (ngSubmit)="editProduct()" action="" class="w-50 container text-center mb-5">
+ 
+        <input [(ngModel)] = "pdata.productName"    type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p2"  placeholder="Name" name="pn2">
+        <input [(ngModel)] = "pdata.catagory"       type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p3"  placeholder="Catagory id" name="pn3">
+        <input [(ngModel)] = "pdata.descriptions"   type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p4"  placeholder="Descriptions" name="pn4">
+        <input [(ngModel)] = "pdata.price"          type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p5"  placeholder="Price" name="pn5">
+        <input [(ngModel)] = "pdata.is_Available"   type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p6"  placeholder="is_Available" name="pn6">
+        <input [(ngModel)] = "pdata.productImage"   type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p7"  placeholder="Product Image" name="pn7">
+        <input [(ngModel)] = "pdata.Rating"         type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p8"  placeholder="Rating" name="pn8">
+        <input [(ngModel)] = "pdata.review"         type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p9"  placeholder="Review" name="pn9"> 
+        <input [(ngModel)] = "pdata.vendorName"     type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p10" placeholder="Vendor name" name="pn10">
+        <input [(ngModel)] = "pdata.warrenty"       type="text" class="form-control mt-2 border border-info border-1 bg-transparent rounded-5" id="p11" placeholder="Warrenty" name="pn11">
+
+        <button  class="btn btn-outline-dark flex-shrink-0 border-2 border border-dark border-4 rounded-5  fw-bolder mt-4" type="submit">
+
+            <a href="" class="lead text-info" style="text-decoration: none;"> <i class="fa-solid fa-plus fa-flip ms-1 fs-5 text-white"></i>
+                Edit product 
+            </a> 
+
+        </button>
+
+    </form>
+  
+
+</div>
+
